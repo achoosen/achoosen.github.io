@@ -23,12 +23,24 @@ dl, dd, ol, ul, figure {
 //     color: white;
 // }
 
-// .site-nav .page-link {
-//     color: white;
-//     line-height: 1.5;
-//     text-transform: uppercase;
-// }
+.site-nav .page-link {
+    line-height: 1.5;
+    text-transform: uppercase;
+}
 
+.title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 36px;
+  }
+
+}
 // .site-header {
 //     background-color: #1C4587;
 //     border: 0;
