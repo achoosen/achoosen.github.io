@@ -41,18 +41,33 @@ dl, dd, ol, ul, figure {
   }
 
 }
-// .site-header {
-//     background-color: #1C4587;
-//     border: 0;
-//     color: white;
-// }
 
-// .site-header {
-//   position: sticky;
-//   width: 100%;
-//   top: 0;
-//   z-index: 10;
-// }
+.site-title::before {
+  content: url('35x35.png');
+  display: inline-block;
+  position: relative;
+  width: 37px;
+  top: 8px;
+}
+
+.site-title, .site-title:visited {
+  color: white; /* make the text invisible */
+  user-select: none; /* prev */
+}
+
+
+.site-header {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  background-color: white;
+}
+
+.site-header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
 
 // .site-title, .site-title:visited {
 //     color: white;

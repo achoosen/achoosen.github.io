@@ -105,7 +105,7 @@ A_{BDF} = \dfrac{81}{2}\sqrt{3}
 \\ \dfrac{1}{2}(\dfrac{3}{2}CD)(\dfrac{3\sqrt{3}}{2}CD) = \dfrac{81}{2}\sqrt{3}
 $$
 
-By inspection, we can cancel $$\sqrt{3}$$, 81, 3 and 2. Leaving us with,
+By inspection, we can cancel $$\sqrt{3}, 81, 3, 2$$ Leaving us with,
 
 $$
 (CD)^2 = 36

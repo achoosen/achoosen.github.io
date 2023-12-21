@@ -7,6 +7,7 @@ layout: default
 
 Don’t know how to make an original welcome message for this homepage.
 
-I basically blog about **things** and compile the Maths I've done, those I find interesting and enjoy. 
+I basically blog about **things** and compile the Maths I've done, ones I find interesting and enjoy. 
 
-I used WordPress in the past but I've made the switch to Jekyll. I got lazy so I used the Minima Theme. 
+I've went from hosting my website from WordPress to GitHub Pages using Jekyll.\
+(Read my post about [this]({{site.url}}/blog/2023/11/02/Changing-from-WordPress-to-Jekyll.html)). 
