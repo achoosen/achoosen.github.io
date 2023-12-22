@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "trying to prove the phytagoras theorem"
-date: 2023-11-13 +00:00:00
+date: 2022-11-13 +00:00:00
 category: math
 description: An amateur's attempt or a fool's attempt
 ---
