@@ -37,7 +37,7 @@ $$
 4+40+25+1=70
 $$
 
-So the percentage of numbers without even digits are...
+So the percentage of numbers without even digits is...
 
 $$
 \dfrac{100-70}{100}=\dfrac{30}{100}
@@ -59,7 +59,9 @@ we can arrange non-even digit numbers by using the 5 odd digit numbers. This wil
 
 For the three digit number, 100, it is an even digit number.
 
-So there you have it, $$25+5=30$$ or $$\dfrac{25+5}{100}=\dfrac{30}{100}$$.
+So there you have it, 
+
+$$25+5=30$$ or $$\dfrac{25+5}{100}=\dfrac{30}{100}$$.
 
 # Conclusion
 I still have a lot to practice for combinatorics & permutations problems.....
