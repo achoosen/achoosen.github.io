@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Numbers without even digits"
-date: 2023-12-23 16:00 +0700
+date: 2023-12-23 15:00 +0700
 category: math
 description: im actually bad at counting???
 ---
