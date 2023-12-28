@@ -1,5 +1,5 @@
 ---
-title: back to school for literally a week
+title: back to school for a week
 date: '2022-05-02 00:00:00 +0000'
 categories: school life
 layout: post
