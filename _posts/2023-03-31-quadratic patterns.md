@@ -5,7 +5,6 @@ title: "quadratic patterns: 1, 3, 6, 10, 15, …"
 description: a sequence I stumbled upon while observing the pascal's triangle.
 date: '2023-03-31 00:00:00 +0000'
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 i stumbled upon this sequence while observing the pascal’s triangle,
 

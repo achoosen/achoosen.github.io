@@ -1,7 +1,7 @@
 ---
-title: reflecting on how we use tech
+title: reflecting on how i use tech
 date: '2023-01-09 00:00:00 +0000'
-categories: blog
+category: tech
 layout: post
 ---
 

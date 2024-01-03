@@ -1,101 +1,91 @@
 ---
 layout: post
-title:  "optimizing a trigonometric equation"
-date: 2023-12-29 00:00 +0700
+title:  "a tricky algebra question"
+date: 2023-12-28 00:00 +0700
 category: math
-description: why am i doing a lot of trigonometry nowadays?
+description: trigonometry ahhhhhhhhhh
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # The problem
 
+If $$\sin \theta - \cos \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2}$$, $$0 \le \theta \le \dfrac{\pi}{2}$$, then the value of $$\sin^3 \theta - \cos^3 \theta =$$...
+
+(A) $$\dfrac{1}{2}\sqrt{2}$$
+\\
+(B) $$\dfrac{1}{2}\sqrt{3}$$
+\\
+(C) $$\sqrt{2}$$
+\\
+(D) $$2$$
+\\
+(E) $$12$$
+
 A little of background. This problem appeared in *Universitas Indonesia*'s 2015 entrance test for 
-'Mathematics for Natural Sciences'. This was Question 7.
+'Mathematics for Natural Sciences'. 
 
-Let $$\theta$$ be an angle such that
-
-$$
-\tan 4\theta=\dfrac{\cos\theta-\sin\theta}{\cos\theta+\sin\theta}
-$$
-
-Suppose $$\theta=x$$ (note x is in degrees) for some positive real number x, the smallest possible value of x is...
-
-(A) 5
-\\
-(B) 9
-\\
-(C) 12.5
-\\
-(D) 14
-\\
-(E) 45
 # My solution
 
-The smallest possible value of x means we probably can just derive them, set it equal to 0, to find the minimum value.
+A very useful identity for solving this problem is $$\sin^2 \theta+\cos^2 \theta = 1$$.
+
+With the above identity, we at least can get an idea of what $$\sin^3 \theta - \cos^3 \theta$$ looks like for now.
 
 $$
-\tan 4x=\dfrac{\cos x-\sin x}{\cos x + \sin x}
-
-\\ \dfrac{d}{dx}(\tan 4x=\dfrac{\cos x-\sin x}{\cos x + \sin x})
-
+(\sin \theta - \cos \theta)(\sin^2 \theta+\cos^2 \theta) = (\dfrac{\sqrt{6}-\sqrt{2}}{2})(1)
+\\ (\sin^3 \theta + \sin \theta \cos^2 \theta - \sin^2 \theta \cos \theta - \cos^3\theta) = \dfrac{\sqrt{6}-\sqrt{2}}{2}
 $$
 
-LHS first.
+Simplifying further...
 
 $$
-4\sec^2(4x)=0
-\\ 4(\dfrac{1}{\cos^2 4x})=0
-$$
+\sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + \sin \theta \cos \theta (\sin \theta - \cos \theta)
 
-So left hand side gives no solution.
-
-We focus on the RHS now.
-
-$$
-\dfrac{d}{dx}(\dfrac{\cos x-\sin x}{\cos x + \sin x})
-$$
-
-Quotient rule states that $$f'(x)=\dfrac{u'v-uv'}{v^2}$$.
-
-Let $$u=\cos x-\sin x$$ and $$v=\cos x + \sin x$$
-
-$$
-u' = -\sin x - \cos x
-\\ v' = -\sin x + \cos x
-$$
-
-Applying quotient rule...
-
-
-$$
-f'(x)=\dfrac{(-\sin x - \cos x)(\cos x + \sin x)-(\cos x-\sin x)(-\sin x + \cos x)}{(\cos x + \sin x)^2}
-
-\\ = \dfrac{-\sin^2 x - 2 \cos x \sin x - \sin^2 x - (\cos^2 x - 2 \sin x \cos x + \sin^2 x)}{(\cos x + \sin x)^2}
-
-\\ = \dfrac{-2 \sin^2 x - 2 \cos^2 x}{(\cos x + \sin x)^2}
-$$
-
-Setting f'(x) = 0.
-
-$$
-0 = \dfrac{-2 \sin^2 x - 2 \cos^2 x}{(\cos x + \sin x)^2}
-
-\\ 0 = -2 \sin^2 x - 2 \cos^2 x
-
-\\ \sin^2 x = \cos^2 x
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + \sin \theta \cos \theta (\dfrac{\sqrt{6}-\sqrt{2}}{2})
 
 $$
 
-Hmm I wonder what value of x that has both its sine and cosine equal?
+Great. Now we just need to find $$\sin \theta \cos\theta$$.
 
-Ez. 45 degrees.
+We recognize that
 
 $$
-\sin 45= \dfrac{\sqrt{2}}{2}
-\\ \cos 45 = \dfrac{\sqrt{2}}{2}
+(\sin \theta - \cos \theta)^2 = \sin^2\theta - 2\sin\theta\cos\theta + \cos^2\theta
 $$
 
-Hence answer is E. You can actually verify this in the calculator too but remember that the exam doesn't allow you to have a calculator lol.
+You see where I'm going?
 
+$$
+\sin^2\theta - 2\sin\theta\cos\theta + \cos^2\theta =(\dfrac{\sqrt{6}-\sqrt{2}}{2})^2
 
+\\ \sin^2\theta - 2\sin\theta\cos\theta + \cos^2\theta = 2 - \sqrt{3}
+
+\\ - 2\sin\theta\cos\theta + \sin^2\theta + \cos^2\theta = 2 - \sqrt{3}
+
+\\ - 2\sin\theta\cos\theta + 1 = 2 - \sqrt{3}
+
+\\ \sin\theta\cos\theta = \dfrac{\sqrt{3}-1}{2}
+$$
+
+dOpE. We go back to our known identity of $$\sin^3 \theta - \cos^3 \theta$$.
+
+$$
+\sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + \sin \theta \cos \theta (\dfrac{\sqrt{6}-\sqrt{2}}{2})
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + (\dfrac{\sqrt{3}-1}{2}) (\dfrac{\sqrt{6}-\sqrt{2}}{2})
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + (\dfrac{\sqrt{6}}{2})(\dfrac{\sqrt{3}-1}{2}) - (\dfrac{\sqrt{2}}{2})(\dfrac{\sqrt{3}-1}{2})
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{\sqrt{6}-\sqrt{2}}{2} + \dfrac{\sqrt{18}}{4}-\dfrac{\sqrt{6}}{4} - \dfrac{\sqrt{6}}{4}+\dfrac{\sqrt{2}}{4}
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{2\sqrt{6}}{4}-\dfrac{2\sqrt{2}}{4} + \dfrac{\sqrt{18}}{4}-\dfrac{\sqrt{6}}{4} - \dfrac{\sqrt{6}}{4}+\dfrac{\sqrt{2}}{4}
+
+\\ \sin^3 \theta - \cos^3 \theta = -\dfrac{\sqrt{2}}{4} + \dfrac{\sqrt{18}}{4}
+
+\\ \sin^3 \theta - \cos^3 \theta = -\dfrac{\sqrt{2}}{4} + \dfrac{3\sqrt{2}}{4}
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{2\sqrt{2}}{4}
+
+\\ \sin^3 \theta - \cos^3 \theta = \dfrac{1}{2}\sqrt{2}
+$$
+
+Hence answer is A. 
 

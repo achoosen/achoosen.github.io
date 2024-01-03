@@ -1,8 +1,8 @@
 ---
 title: pen is dumb
 date: '2023-03-27 00:00:00 +0000'
-categories: blog
-layout: default
+category: life
+layout: post
 ---
 
 So recently my dad received a pen as a gift, a fancy one rather. But the problem is that when he opened the box, he couldn’t open the pen. Now mind you, he is 55, okay maybe he’s old that’s why, I thought. So I asked him how he opened it which he demonstrated by twisting it clockwise. I thought ‘ah hes just twisting improperly” so I tried doing the same thing and it failed.

@@ -6,8 +6,6 @@ layout: post
 description: How I messed up a Level 7-8 question, considered a difficult question.
 ---
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
 *originally titled "This one problem in Math"*
 
 ![the math working](/assets/images/level7-8%20question.jpg)

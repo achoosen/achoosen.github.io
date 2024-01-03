@@ -5,7 +5,6 @@ date: 2023-12-23 15:00 +0700
 category: math
 description: im actually bad at counting???
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # The problem
 
