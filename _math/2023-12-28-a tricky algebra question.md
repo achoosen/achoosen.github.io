@@ -2,7 +2,6 @@
 layout: post
 title:  "a tricky algebra question"
 date: 2023-12-28 00:00 +0700
-category: math
 description: trigonometry ahhhhhhhhhh
 ---
 

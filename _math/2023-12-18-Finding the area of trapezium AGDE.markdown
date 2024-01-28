@@ -2,7 +2,6 @@
 layout: post
 title:  "Finding the area of trapezium AGDE"
 date: 2023-12-18 16:16:27 +0700
-category: math
 description: A geometry question from SIMAK UI 2019, Universitas Indonesia's entrance exam.
 ---
 

@@ -1,11 +1,9 @@
 ---
 layout: post
-category: math
 title: "infinite area of isosceles triangle in a circle = area of a circle"
 description: an investigation problem i encountered in my math textbook
 date: '2023-10-02 00:00:00 +0000'
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 *This was written when I was still using WordPress*
 

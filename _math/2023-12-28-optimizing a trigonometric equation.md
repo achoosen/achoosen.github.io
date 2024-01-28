@@ -2,7 +2,6 @@
 layout: post
 title:  "optimizing a trigonometric equation"
 date: 2023-12-29 00:00 +0700
-category: math
 description: why am i doing a lot of trigonometry nowadays? 
 ---
 

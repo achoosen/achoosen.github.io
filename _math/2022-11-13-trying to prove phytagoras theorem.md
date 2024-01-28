@@ -2,7 +2,6 @@
 layout: post
 title:  "trying to prove the phytagoras theorem"
 date: 2022-11-13 +00:00:00
-category: math
 description: An amateur's attempt or a fool's attempt
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

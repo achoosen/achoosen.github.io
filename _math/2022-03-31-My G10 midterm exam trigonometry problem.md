@@ -1,7 +1,6 @@
 ---
 title: My G10 midterm exam trigonometry problem
 date: '2022-03-31 00:00:00 +0000'
-category: math
 layout: post
 description: How I messed up a Level 7-8 question, considered a difficult question.
 ---
